@@ -1,0 +1,6 @@
+framework module Pods_zynstagram {
+  umbrella header "Pods-zynstagram-umbrella.h"
+
+  export *
+  module * { export * }
+}

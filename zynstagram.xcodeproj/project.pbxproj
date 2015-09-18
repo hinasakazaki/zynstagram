@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB397BA41BAA6E780066CFA5 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB397BA31BAA6E780066CFA5 /* PhotoDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BB7928381BAA597F008B794A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7928371BAA597F008B794A /* AppDelegate.swift */; };
+		BB79283A1BAA597F008B794A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7928391BAA597F008B794A /* ViewController.swift */; };
+		BB79283D1BAA597F008B794A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB79283B1BAA597F008B794A /* Main.storyboard */; };
+		BB79283F1BAA597F008B794A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB79283E1BAA597F008B794A /* Assets.xcassets */; };
+		BB7928421BAA597F008B794A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7928401BAA597F008B794A /* LaunchScreen.storyboard */; };
+		BBCA99A41BAA5BFB00EFBB08 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA99A31BAA5BFB00EFBB08 /* PhotosViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBCA99A61BAA63A200EFBB08 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA99A51BAA63A200EFBB08 /* PhotosTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		C0038EB6B572E2989D3FA44C /* Pods_zynstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3568AA7C043B2303F893B7A /* Pods_zynstagram.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3568AA7C043B2303F893B7A /* Pods_zynstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zynstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB397BA31BAA6E780066CFA5 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		BB7928341BAA597F008B794A /* zynstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zynstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7928371BAA597F008B794A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB7928391BAA597F008B794A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB79283C1BAA597F008B794A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB79283E1BAA597F008B794A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB7928411BAA597F008B794A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB7928431BAA597F008B794A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCA99A31BAA5BFB00EFBB08 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		BBCA99A51BAA63A200EFBB08 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosTableViewCell.swift; path = ../PhotosTableViewCell.swift; sourceTree = "<group>"; };
+		BBCA99A71BAA65DF00EFBB08 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
+		DA68F96663CD1CBC72F51B8C /* Pods-zynstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zynstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zynstagram/Pods-zynstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		ECDDE7C9D5ABE76FA72EE459 /* Pods-zynstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zynstagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-zynstagram/Pods-zynstagram.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB7928311BAA597F008B794A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0038EB6B572E2989D3FA44C /* Pods_zynstagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE4518A4CEB61FEEBFA32B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA99A71BAA65DF00EFBB08 /* libAFNetworking.a */,
+				B3568AA7C043B2303F893B7A /* Pods_zynstagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0EA896A75E0290FA7880181 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA68F96663CD1CBC72F51B8C /* Pods-zynstagram.debug.xcconfig */,
+				ECDDE7C9D5ABE76FA72EE459 /* Pods-zynstagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB79282B1BAA597F008B794A = {
+			isa = PBXGroup;
+			children = (
+				BB7928361BAA597F008B794A /* zynstagram */,
+				BB7928351BAA597F008B794A /* Products */,
+				B0EA896A75E0290FA7880181 /* Pods */,
+				6CE4518A4CEB61FEEBFA32B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7928351BAA597F008B794A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7928341BAA597F008B794A /* zynstagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7928361BAA597F008B794A /* zynstagram */ = {
+			isa = PBXGroup;
+			children = (
+				BB7928371BAA597F008B794A /* AppDelegate.swift */,
+				BBCA99A31BAA5BFB00EFBB08 /* PhotosViewController.swift */,
+				BB397BA31BAA6E780066CFA5 /* PhotoDetailsViewController.swift */,
+				BBCA99A51BAA63A200EFBB08 /* PhotosTableViewCell.swift */,
+				BB7928391BAA597F008B794A /* ViewController.swift */,
+				BB79283B1BAA597F008B794A /* Main.storyboard */,
+				BB79283E1BAA597F008B794A /* Assets.xcassets */,
+				BB7928401BAA597F008B794A /* LaunchScreen.storyboard */,
+				BB7928431BAA597F008B794A /* Info.plist */,
+			);
+			path = zynstagram;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7928331BAA597F008B794A /* zynstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7928461BAA597F008B794A /* Build configuration list for PBXNativeTarget "zynstagram" */;
+			buildPhases = (
+				2A2071C60A2C699A6C0E7BFD /* Check Pods Manifest.lock */,
+				BB7928301BAA597F008B794A /* Sources */,
+				BB7928311BAA597F008B794A /* Frameworks */,
+				BB7928321BAA597F008B794A /* Resources */,
+				262259C8493CEA45AC2A5953 /* Copy Pods Resources */,
+				7716573B6AA6DBE841418926 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zynstagram;
+			productName = zynstagram;
+			productReference = BB7928341BAA597F008B794A /* zynstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB79282C1BAA597F008B794A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kenneth Pu";
+				TargetAttributes = {
+					BB7928331BAA597F008B794A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = BB79282F1BAA597F008B794A /* Build configuration list for PBXProject "zynstagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB79282B1BAA597F008B794A;
+			productRefGroup = BB7928351BAA597F008B794A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7928331BAA597F008B794A /* zynstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7928321BAA597F008B794A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7928421BAA597F008B794A /* LaunchScreen.storyboard in Resources */,
+				BB79283F1BAA597F008B794A /* Assets.xcassets in Resources */,
+				BB79283D1BAA597F008B794A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		262259C8493CEA45AC2A5953 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zynstagram/Pods-zynstagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A2071C60A2C699A6C0E7BFD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7716573B6AA6DBE841418926 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zynstagram/Pods-zynstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7928301BAA597F008B794A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCA99A61BAA63A200EFBB08 /* PhotosTableViewCell.swift in Sources */,
+				BB397BA41BAA6E780066CFA5 /* PhotoDetailsViewController.swift in Sources */,
+				BBCA99A41BAA5BFB00EFBB08 /* PhotosViewController.swift in Sources */,
+				BB79283A1BAA597F008B794A /* ViewController.swift in Sources */,
+				BB7928381BAA597F008B794A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB79283B1BAA597F008B794A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB79283C1BAA597F008B794A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB7928401BAA597F008B794A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7928411BAA597F008B794A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB7928441BAA597F008B794A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB7928451BAA597F008B794A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB7928471BAA597F008B794A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA68F96663CD1CBC72F51B8C /* Pods-zynstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zynstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zynga.zynstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB7928481BAA597F008B794A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDDE7C9D5ABE76FA72EE459 /* Pods-zynstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zynstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zynga.zynstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB79282F1BAA597F008B794A /* Build configuration list for PBXProject "zynstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7928441BAA597F008B794A /* Debug */,
+				BB7928451BAA597F008B794A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7928461BAA597F008B794A /* Build configuration list for PBXNativeTarget "zynstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7928471BAA597F008B794A /* Debug */,
+				BB7928481BAA597F008B794A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB79282C1BAA597F008B794A /* Project object */;
+}
